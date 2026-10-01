@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# 合成库由 synth.py 生成，不入库
+data/*.db
+
+# 内部方案文档含真实业务数字与公司指向，不公开
+docs/00-方案-内部不公开.md
